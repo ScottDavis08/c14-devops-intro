@@ -8,5 +8,11 @@
   "env": {
     "node": true,
     "es6": true
+  },
+  "rules": {
+    "no-trailing-spaces": "error",
+    "no-multiple-empty-lines": ["error", { "max": 2 }],
+    "semi": ["error", "always"],
+    "@typescript-eslint/semi": ["error", "always"]
   }
 }
